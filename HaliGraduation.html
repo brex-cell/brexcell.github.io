@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hali Graduation 2023</title>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <style>
+    .slideshow {
+      width: 600px;
+      margin: 0 auto;
+    }
+    .slideshow img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hali Graduation 2023</h1>
+  <div class="slideshow">
+    <img src="Hali Graduation Cap.JPG" alt="Photo 1">
+    <img src="Facetune_12-05-2023-17-39-08.jpg" alt="Photo 2">
+    <img src="Facetune_12-05-2023-17-58-14.jpg" alt="Photo 3">
+  </div>
+  <p>Please select a payment method:</p>
+  <ul>
+    <li>
+      <a href="https://cash.app/$halilewis">Pay with Cash App</a>
+    </li>
+    <li>
+      <a href="https://venmo.com/halilewis22">Pay with Venmo</a>
+    </li>
+    <li>
+      <a href="https://www.paypal.me/YourPayPalUsername">Pay with PayPal</a>
+    </li>
+  </ul>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slideshow').slick({
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: true,
+        arrows: false
+      });
+    });
+  </script>
+</body>
+</html>
+
